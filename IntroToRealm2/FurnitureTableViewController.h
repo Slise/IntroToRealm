@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Room.h"
 
 @interface FurnitureTableViewController : UITableViewController
+
+@property (nonatomic) Room *room;
 
 @end

@@ -7,9 +7,13 @@
 //
 
 #import <Realm/Realm.h>
+@class Room;
 
 @interface Furniture : RLMObject
-<# Add properties here to define the model #>
+
+@property NSString* name;
+@property Room *room;
+
 @end
 
 // This protocol enables typed collections. i.e.:
